@@ -12,6 +12,7 @@ import android.media.projection.MediaProjectionManager;
 import android.os.Build;
 import android.os.IBinder;
 import android.util.DisplayMetrics;
+import android.view.Surface;
 import android.view.WindowManager;
 
 import androidx.core.app.NotificationCompat;
@@ -61,7 +62,7 @@ public class ScreenCaptureService extends Service {
                     "ScreenCapture",
                     width, height, 1,
                     DisplayManager.VIRTUAL_DISPLAY_FLAG_AUTO_MIRROR,
-                    surfaceTextureHelper.getSurfaceTexture(),
+                    new Surface(surfaceTextureHelper.getSurfaceTexture()),
                     null, null);
         }
 

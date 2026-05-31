@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "331514264045",
+    "firebase_url": "https://webrtc-f1c77-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "webrtc-f1c77",
+    "storage_bucket": "webrtc-f1c77.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331514264045:android:a8798352b5dda0826d0fe4",
+        "android_client_info": {
+          "package_name": "com.syncscreen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARqGwxwOV8kV9MXWz4Y7Af2eUh1_q8EPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
