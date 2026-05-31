@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SyncScreen" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#667eea</item>
+        <item name="colorPrimaryVariant">#5568d3</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">#4caf50</item>
+        <item name="colorSecondaryVariant">#45a049</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+    </style>
+</resources>
