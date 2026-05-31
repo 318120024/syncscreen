@@ -133,11 +133,12 @@ public class MainActivity extends AppCompatActivity {
         FirebaseApp.initializeApp(this);
         FirebaseDatabase.getInstance().setPersistenceEnabled(true);
 
+        eglBase = EglBase.create();
+
         initViews();
         setupListeners();
         checkPermissions();
 
-        eglBase = EglBase.create();
         webRTCManager = new WebRTCManager(this);
         setupWebRTCListener();
 
